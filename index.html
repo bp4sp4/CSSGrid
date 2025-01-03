@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="gallery-header">
+        <h1 class="gallery-header__title">Art Gallery</h1>
+        <nav class="gallery-header__nav">
+            <button class="gallery-header__filter-btn" data-category="all">All</button>
+            <button class="gallery-header__filter-btn" data-category="painting">Painting</button>
+            <button class="gallery-header__filter-btn" data-category="sculpture">Sculpture</button>
+            <button class="gallery-header__filter-btn" data-category="photography">Photography</button>
+        </nav>
+    </header>
+
+    <main class="gallery">
+        <div class="gallery__item" data-category="painting">
+            <img class="gallery__image" src="qrcode.png" alt="Art 1">
+        </div>
+        <div class="gallery__item" data-category="sculpture">
+            <img class="gallery__image" src="TMLOGO.png" alt="Art 2">
+        </div>
+        <div class="gallery__item" data-category="photography">
+            <img class="gallery__image" src="upbtn.png" alt="Art 3">
+        </div>
+        <!-- Add more items -->
+    </main>
+
+    <div class="popup popup--hidden">
+        <div class="popup__content">
+            <img class="popup__image" id="popup-img" src="" alt="Artwork">
+            <button class="popup__close-btn">Close</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
