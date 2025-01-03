@@ -4,42 +4,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Art Gallery</title>
+    <title>Image Grid</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <header class="gallery-header">
-        <h1 class="gallery-header__title">Art Gallery</h1>
-        <nav class="gallery-header__nav">
-            <button class="gallery-header__filter-btn" data-category="all">All</button>
-            <button class="gallery-header__filter-btn" data-category="painting">Painting</button>
-            <button class="gallery-header__filter-btn" data-category="sculpture">Sculpture</button>
-            <button class="gallery-header__filter-btn" data-category="photography">Photography</button>
-        </nav>
-    </header>
+    <header">
+        <h1>Gallery</h1>
+        </header>
+        <main class="grid__wrapper">
+            <div>
+                <img src="images/1.jpg" loading="lazy" alt="Image 1">
+            </div>
+            <div>
+                <img src="images/2.JPG" loading="lazy" alt="Image 2">
+            </div>
+            <div>
+                <img src="images/3.jpg" loading="lazy" alt="Image 3">
+            </div>
+            <div>
+                <img src="images/4.JPG" loading="lazy" alt="Image 4">
+            </div>
+            <div>
+                <img src="images/5.jpg" loading="lazy" alt="Image 5">
+            </div>
+            <div>
+                <img src="images/6.jpg" loading="lazy" alt="Image 6">
+            </div>
+            <div>
+                <img src="images/7.jpg" loading="lazy" alt="Image 7">
+            </div>
+            <div>
+                <img src="images/8.jpg" loading="lazy" alt="Image 8">
+            </div>
+            <div>
+                <img src="images/9.jpg" loading="lazy" alt="Image 9">
+            </div>
+            <div>
+                <img src="images/10.jpg" loading="lazy" alt="Image 10">
+            </div>
+            <div>
+                <img src="images/11.jpg" loading="lazy" alt="Image 11">
+            </div>
+            <div>
+                <img src="images/12.jpg" loading="lazy" alt="Image 12">
+            </div>
+            <div>
+                <img src="images/13.jpeg" loading="lazy" alt="Image 13">
+            </div>
+            <div>
+                <img src="images/14.JPG" loading="lazy" alt="Image 14">
+            </div>
+            <div>
+                <img src="images/15.jpg" loading="lazy" alt="Image 15">
+            </div>
+            <div>
+                <img src="images/16.JPG" loading="lazy" alt="Image 16">
+            </div>
+            <div>
+                <img src="images/18.JPG" loading="lazy" alt="Image 18">
+            </div>
+        </main>
+        <footer id="footer__wrapper">
+            <div id="footer__wrapper__desc">
+                <p>갤러리 웹사이트는 상업적 목적이 전혀 없습니다.</p>
+                <div id="footer__link">
+                    <p><a href="https://frontdevpark.tistory.com/">Blog </a></p>
+                    <p id="bar">|</p>
+                    <p><a href="https://github.com/bp4sp4/">Github</a></p>
+                </div>
+            </div>
+        </footer>
+        <script src="sciprt.js"></script>
 
-    <main class="gallery">
-        <div class="gallery__item" data-category="painting">
-            <img class="gallery__image" src="qrcode.png" alt="Art 1">
-        </div>
-        <div class="gallery__item" data-category="sculpture">
-            <img class="gallery__image" src="TMLOGO.png" alt="Art 2">
-        </div>
-        <div class="gallery__item" data-category="photography">
-            <img class="gallery__image" src="upbtn.png" alt="Art 3">
-        </div>
-        <!-- Add more items -->
-    </main>
 
-    <div class="popup popup--hidden">
-        <div class="popup__content">
-            <img class="popup__image" id="popup-img" src="" alt="Artwork">
-            <button class="popup__close-btn">Close</button>
-        </div>
-    </div>
-
-    <script src="script.js"></script>
 </body>
+
+
 
 </html>
