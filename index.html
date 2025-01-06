@@ -4,238 +4,251 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Image Grid</title>
+    <title>Gallery</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.css" rel="stylesheet" />">
 </head>
 
 <body>
-    <header">
+    <!-- 헤더 -->
+    <header>
         <h1 class="title">Gallery</h1>
-        </header>
-        <main class="grid__wrapper">
-            <div>
-                <img src="images/1.jpg" loading="lazy" alt="Image 1">
-                <button class="download-btn" onclick="downloadImage('images/1.jpg')">Download</button>
+    </header>
+    <!-- 헤더 끝 -->
+    <!-- 메인 -->
+    <main class="grid__wrapper">
+        <div>
+            <img src="images/1.jpg" loading="lazy" alt="Image 1">
+            <button class="download-btn" onclick="downloadImage('images/1.jpg')">Download</button>
+        </div>
+        <div>
+            <img src="images/2.JPG" loading="lazy" alt="Image 2">
+            <button class="download-btn" onclick="downloadImage('images/2.JPG')">Download</button>
+        </div>
+        <div>
+            <img src="images/3.jpg" loading="lazy" alt="Image 3">
+            <button class="download-btn" onclick="downloadImage('images/3.jpg')">Download</button>
+        </div>
+        <div>
+            <img src="images/4.JPG" loading="lazy" alt="Image 4">
+            <button class="download-btn" onclick="downloadImage('images/4.jpg')">Download</button>
+        </div>
+        <div>
+            <img src="images/5.jpg" loading="lazy" alt="Image 5">
+            <button class="download-btn" onclick="downloadImage('images/5.jpg')">Download</button>
+        </div>
+        <div>
+            <img src="images/6.jpg" loading="lazy" alt="Image 6">
+            <button class="download-btn" onclick="downloadImage('images/5.jpg')">Download</button>
+        </div>
+        <div>
+            <img src="images/7.jpg" loading="lazy" alt="Image 7">
+            <button class="download-btn" onclick="downloadImage('images/7.jpg')">Download</button>
+        </div>
+        <div>
+            <img src="images/8.jpg" loading="lazy" alt="Image 8">
+            <button class="download-btn" onclick="downloadImage('images/8.jpg')">Download</button>
+        </div>
+        <div>
+            <img src="images/9.jpg" loading="lazy" alt="Image 9">
+            <button class="download-btn" onclick="downloadImage('images/9.jpg')">Download</button>
+        </div>
+        <div>
+            <img src="images/10.jpg" loading="lazy" alt="Image 10">
+            <button class="download-btn" onclick="downloadImage('images/10.jpg')">Download</button>
+        </div>
+        <!-- 제작자 사진 -->
+        <div class="producer__info">
+            <img src="images/producer.jpeg" loading="lazy" alt="producer">
+            <div class="producer__info__desc">
+                <p>제작자 : 박상훈</p>
+                <p>이메일 : bp4sp4@naver.com</p>
+                <p>위치 : 베트남(다낭)</p>
             </div>
-            <div>
-                <img src="images/2.JPG" loading="lazy" alt="Image 2">
-                <button class="download-btn" onclick="downloadImage('images/2.JPG')">Download</button>
-            </div>
-            <div>
-                <img src="images/3.jpg" loading="lazy" alt="Image 3">
-                <button class="download-btn" onclick="downloadImage('images/3.jpg')">Download</button>
-            </div>
-            <div>
-                <img src="images/4.JPG" loading="lazy" alt="Image 4">
-                <button class="download-btn" onclick="downloadImage('images/4.jpg')">Download</button>
-            </div>
-            <div>
-                <img src="images/5.jpg" loading="lazy" alt="Image 5">
-                <button class="download-btn" onclick="downloadImage('images/5.jpg')">Download</button>
-            </div>
-            <div>
-                <img src="images/6.jpg" loading="lazy" alt="Image 6">
-                <button class="download-btn" onclick="downloadImage('images/5.jpg')">Download</button>
-            </div>
-            <div>
-                <img src="images/7.jpg" loading="lazy" alt="Image 7">
-                <button class="download-btn" onclick="downloadImage('images/7.jpg')">Download</button>
-            </div>
-            <div>
-                <img src="images/8.jpg" loading="lazy" alt="Image 8">
-                <button class="download-btn" onclick="downloadImage('images/8.jpg')">Download</button>
-            </div>
-            <div>
-                <img src="images/9.jpg" loading="lazy" alt="Image 9">
-                <button class="download-btn" onclick="downloadImage('images/9.jpg')">Download</button>
-            </div>
-            <div>
-                <img src="images/10.jpg" loading="lazy" alt="Image 10">
-                <button class="download-btn" onclick="downloadImage('images/10.jpg')">Download</button>
-            </div>
-            <div class="producer__info">
-                <img src="images/producer.jpeg" loading="lazy" alt="producer">
-                <div class="producer__info__desc">
-                    <p>제작자 : 박상훈</p>
-                    <p>이메일 : bp4sp4@naver.com</p>
-                    <p>위치 : 베트남(다낭)</p>
-                </div>
-            </div>
-            <div>
-                <img src="images/11.jpg" loading="lazy" alt="Image 11">
-                <button class="download-btn" onclick="downloadImage('images/11.jpg')">Download</button>
-            </div>
-            <div>
-                <img src="images/12.jpg" loading="lazy" alt="Image 12">
-                <button class="download-btn" onclick="downloadImage('images/12.jpg')">Download</button>
-            </div>
-            <div>
-                <img src="images/13.jpeg" loading="lazy" alt="Image 13">
-                <button class="download-btn" onclick="downloadImage('images/13.jpeg')">Download</button>
-            </div>
-            <div>
-                <img src="images/14.JPG" loading="lazy" alt="Image 14">
-                <button class="download-btn" onclick="downloadImage('images/14.jpg')">Download</button>
-            </div>
-            <div>
-                <img src="images/15.jpg" loading="lazy" alt="Image 15">
-                <button class="download-btn" onclick="downloadImage('images/15.jpg')">Download</button>
-            </div>
-            <div>
-                <img src="images/16.JPG" loading="lazy" alt="Image 16">
-                <button class="download-btn" onclick="downloadImage('images/16.jpg')">Download</button>
-            </div>
-            <div>
-                <img src="images/17.jpg" loading="lazy" alt="Image 17">
-                <button class="download-btn" onclick="downloadImage('images/17.jpg')">Download</button>
-            </div>
-            <div>
-                <img src="images/18.JPG" loading="lazy" alt="Image 18">
-                <button class="download-btn" onclick="downloadImage('images/18.jpg')">Download</button>
-            </div>
-            <div>
-                <img src="images/19.JPG" loading="lazy" alt="Image 19">
-                <button class="download-btn" onclick="downloadImage('images/19.jpg')">Download</button>
-            </div>
+        </div>
+        <!-- 제작자 사진 끝 -->
+        <div>
+            <img src="images/11.jpg" loading="lazy" alt="Image 11">
+            <button class="download-btn" onclick="downloadImage('images/11.jpg')">Download</button>
+        </div>
+        <div>
+            <img src="images/12.jpg" loading="lazy" alt="Image 12">
+            <button class="download-btn" onclick="downloadImage('images/12.jpg')">Download</button>
+        </div>
+        <div>
+            <img src="images/13.jpeg" loading="lazy" alt="Image 13">
+            <button class="download-btn" onclick="downloadImage('images/13.jpeg')">Download</button>
+        </div>
+        <div>
+            <img src="images/14.JPG" loading="lazy" alt="Image 14">
+            <button class="download-btn" onclick="downloadImage('images/14.jpg')">Download</button>
+        </div>
+        <div>
+            <img src="images/15.jpg" loading="lazy" alt="Image 15">
+            <button class="download-btn" onclick="downloadImage('images/15.jpg')">Download</button>
+        </div>
+        <div>
+            <img src="images/16.JPG" loading="lazy" alt="Image 16">
+            <button class="download-btn" onclick="downloadImage('images/16.jpg')">Download</button>
+        </div>
+        <div>
+            <img src="images/17.jpg" loading="lazy" alt="Image 17">
+            <button class="download-btn" onclick="downloadImage('images/17.jpg')">Download</button>
+        </div>
+        <div>
+            <img src="images/18.JPG" loading="lazy" alt="Image 18">
+            <button class="download-btn" onclick="downloadImage('images/18.jpg')">Download</button>
+        </div>
+        <div>
+            <img src="images/19.JPG" loading="lazy" alt="Image 19">
+            <button class="download-btn" onclick="downloadImage('images/19.jpg')">Download</button>
+        </div>
 
-            <div>
-                <img src="images/20.JPG" loading="lazy" alt="Image 20">
-                <button class="download-btn" onclick="downloadImage('images/20.jpg')">Download</button>
+        <div>
+            <img src="images/20.JPG" loading="lazy" alt="Image 20">
+            <button class="download-btn" onclick="downloadImage('images/20.jpg')">Download</button>
+        </div>
+        <div>
+            <img src="images/21.jpeg" loading="lazy" alt="Image 21">
+            <button class="download-btn" onclick="downloadImage('images/21.jpg')">Download</button>
+        </div>
+        <div>
+            <img src="images/22.jpg" loading="lazy" alt="Image 22">
+            <button class="download-btn" onclick="downloadImage('images/22.jpg')">Download</button>
+        </div>
+        <div>
+            <img src="images/23.jpg" loading="lazy" alt="Image 23">
+            <button class="download-btn" onclick="downloadImage('images/23.jpg')">Download</button>
+        </div>
+        <div>
+            <img src="images/24.jpg" loading="lazy" alt="Image 24">
+            <button class="download-btn" onclick="downloadImage('images/24.jpg')">Download</button>
+        </div>
+        <div>
+            <img src="images/25.jpg" loading="lazy" alt="Image 25">
+            <button class="download-btn" onclick="downloadImage('images/25.jpg')">Download</button>
+        </div>
+        <div>
+            <img src="images/26.jpg" loading="lazy" alt="Image 26">
+            <button class="download-btn" onclick="downloadImage('images/26.jpg')">Download</button>
+        </div>
+        <div>
+            <img src="images/27.jpg" loading="lazy" alt="Image 27">
+            <button class="download-btn" onclick="downloadImage('images/27.jpg')">Download</button>
+        </div>
+        <div>
+            <img src="images/28.jpg" loading="lazy" alt="Image 28">
+            <button class="download-btn" onclick="downloadImage('images/28.jpg')">Download</button>
+        </div>
+        <div>
+            <img src="images/29.jpg" loading="lazy" alt="Image 29">
+            <button class="download-btn" onclick="downloadImage('images/29.jpg')">Download</button>
+        </div>
+        <div>
+            <img src="images/30.jpg" loading="lazy" alt="Image 30">
+            <button class="download-btn" onclick="downloadImage('images/30.jpg')">Download</button>
+        </div>
+        <div>
+            <img src="images/31.jpg" loading="lazy" alt="Image 31">
+            <button class="download-btn" onclick="downloadImage('images/31.jpg')">Download</button>
+        </div>
+        <div>
+            <img src="images/32.jpg" loading="lazy" alt="Image 32">
+            <button class="download-btn" onclick="downloadImage('images/32.jpg')">Download</button>
+        </div>
+        <div>
+            <img src="images/33.jpg" loading="lazy" alt="Image 33">
+            <button class="download-btn" onclick="downloadImage('images/33.jpg')">Download</button>
+        </div>
+        <div>
+            <img src="images/34.jpg" loading="lazy" alt="Image 34">
+            <button class="download-btn" onclick="downloadImage('images/34.jpg')">Download</button>
+        </div>
+        <div>
+            <img src="images/35.jpg" loading="lazy" alt="Image 35">
+            <button class="download-btn" onclick="downloadImage('images/35.jpg')">Download</button>
+        </div>
+        <div>
+            <img src="images/37.jpg" loading="lazy" alt="Image 37">
+            <button class="download-btn" onclick="downloadImage('images/37.jpg')">Download</button>
+        </div>
+        <div>
+            <img src="images/38.jpg" loading="lazy" alt="Image 38">
+            <button class="download-btn" onclick="downloadImage('images/38.jpg')">Download</button>
+        </div>
+        <div>
+            <img src="images/39.JPG" loading="lazy" alt="Image 39">
+            <button class="download-btn" onclick="downloadImage('images/39.jpg')">Download</button>
+        </div>
+        <div>
+            <img src="images/40.jpg" loading="lazy" alt="Image 40">
+            <button class="download-btn" onclick="downloadImage('images/40.jpg')">Download</button>
+        </div>
+        <div>
+            <img src="images/41.jpg" loading="lazy" alt="Image 41">
+            <button class="download-btn" onclick="downloadImage('images/41.jpg')">Download</button>
+        </div>
+        <div>
+            <img src="images/42.jpg" loading="lazy" alt="Image 42">
+            <button class="download-btn" onclick="downloadImage('images/42.jpg')">Download</button>
+        </div>
+        <div>
+            <img src="images/43.JPG" loading="lazy" alt="Image 43">
+            <button class="download-btn" onclick="downloadImage('images/43.jpg')">Download</button>
+        </div>
+        <div>
+            <img src="images/44.jpg" loading="lazy" alt="Image 44">
+            <button class="download-btn" onclick="downloadImage('images/44.jpg')">Download</button>
+        </div>
+        <div>
+            <img src="images/45.JPG" loading="lazy" alt="Image 45">
+            <button class="download-btn" onclick="downloadImage('images/45.jpg')">Download</button>
+        </div>
+        <div>
+            <img src="images/46.jpg" loading="lazy" alt="Image 46">
+            <button class="download-btn" onclick="downloadImage('images/46.jpg')">Download</button>
+        </div>
+        <div>
+            <img src="images/47.jpg" loading="lazy" alt="Image 47">
+            <button class="download-btn" onclick="downloadImage('images/47.jpg')">Download</button>
+        </div>
+        <div>
+            <img src="images/48.jpg" loading="lazy" alt="Image 48">
+            <button class="download-btn" onclick="downloadImage('images/48.jpg')">Download</button>
+        </div>
+        <div>
+            <img src="images/49.jpg" loading="lazy" alt="Image 49">
+            <button class="download-btn" onclick="downloadImage('images/49.jpg')">Download</button>
+        </div>
+        <div>
+            <img src="images/50.jpg" loading="lazy" alt="Image 50">
+            <button class="download-btn" onclick="downloadImage('images/50.jpg')">Download</button>
+        </div>
+        <div>
+            <img src="images/51.jpg" loading="lazy" alt="Image 51">
+            <button class="download-btn" onclick="downloadImage('images/51.jpg')">Download</button>
+        </div>
+    </main>
+    <!-- 메인 끝 -->
+    <!-- 푸터 -->
+    <footer id="footer__wrapper">
+        <div id="footer__wrapper__desc">
+            <p>갤러리 웹사이트는 상업적 목적이 전혀 없습니다.</p>
+            <p class="copyright">The gallery website has no commercial purpose at all.</p>
+            <p class="copyright">
+                Copyright 2025. The copyright of the prohibition of unauthorized reproduction of photographs is in
+                Live of Fix.
+            </p>
+            <div id="footer__link">
+                <p><a href="https://frontdevpark.tistory.com/">Blog </a></p>
+                <p id="bar">|</p>
+                <p><a href="https://github.com/bp4sp4/">Github</a></p>
             </div>
-            <div>
-                <img src="images/21.jpeg" loading="lazy" alt="Image 21">
-                <button class="download-btn" onclick="downloadImage('images/21.jpg')">Download</button>
-            </div>
-            <div>
-                <img src="images/22.jpg" loading="lazy" alt="Image 22">
-                <button class="download-btn" onclick="downloadImage('images/22.jpg')">Download</button>
-            </div>
-            <div>
-                <img src="images/23.jpg" loading="lazy" alt="Image 23">
-                <button class="download-btn" onclick="downloadImage('images/23.jpg')">Download</button>
-            </div>
-            <div>
-                <img src="images/24.jpg" loading="lazy" alt="Image 24">
-                <button class="download-btn" onclick="downloadImage('images/24.jpg')">Download</button>
-            </div>
-            <div>
-                <img src="images/25.jpg" loading="lazy" alt="Image 25">
-                <button class="download-btn" onclick="downloadImage('images/25.jpg')">Download</button>
-            </div>
-            <div>
-                <img src="images/26.jpg" loading="lazy" alt="Image 26">
-                <button class="download-btn" onclick="downloadImage('images/26.jpg')">Download</button>
-            </div>
-            <div>
-                <img src="images/27.jpg" loading="lazy" alt="Image 27">
-                <button class="download-btn" onclick="downloadImage('images/27.jpg')">Download</button>
-            </div>
-            <div>
-                <img src="images/28.jpg" loading="lazy" alt="Image 28">
-                <button class="download-btn" onclick="downloadImage('images/28.jpg')">Download</button>
-            </div>
-            <div>
-                <img src="images/29.jpg" loading="lazy" alt="Image 29">
-                <button class="download-btn" onclick="downloadImage('images/29.jpg')">Download</button>
-            </div>
-            <div>
-                <img src="images/30.jpg" loading="lazy" alt="Image 30">
-                <button class="download-btn" onclick="downloadImage('images/30.jpg')">Download</button>
-            </div>
-            <div>
-                <img src="images/31.jpg" loading="lazy" alt="Image 31">
-                <button class="download-btn" onclick="downloadImage('images/31.jpg')">Download</button>
-            </div>
-            <div>
-                <img src="images/32.jpg" loading="lazy" alt="Image 32">
-                <button class="download-btn" onclick="downloadImage('images/32.jpg')">Download</button>
-            </div>
-            <div>
-                <img src="images/33.jpg" loading="lazy" alt="Image 33">
-                <button class="download-btn" onclick="downloadImage('images/33.jpg')">Download</button>
-            </div>
-            <div>
-                <img src="images/34.jpg" loading="lazy" alt="Image 34">
-                <button class="download-btn" onclick="downloadImage('images/34.jpg')">Download</button>
-            </div>
-            <div>
-                <img src="images/35.jpg" loading="lazy" alt="Image 35">
-                <button class="download-btn" onclick="downloadImage('images/35.jpg')">Download</button>
-            </div>
-            <div>
-                <img src="images/37.jpg" loading="lazy" alt="Image 37">
-                <button class="download-btn" onclick="downloadImage('images/37.jpg')">Download</button>
-            </div>
-            <div>
-                <img src="images/38.jpg" loading="lazy" alt="Image 38">
-                <button class="download-btn" onclick="downloadImage('images/38.jpg')">Download</button>
-            </div>
-            <div>
-                <img src="images/39.JPG" loading="lazy" alt="Image 39">
-                <button class="download-btn" onclick="downloadImage('images/39.jpg')">Download</button>
-            </div>
-            <div>
-                <img src="images/40.jpg" loading="lazy" alt="Image 40">
-                <button class="download-btn" onclick="downloadImage('images/40.jpg')">Download</button>
-            </div>
-            <div>
-                <img src="images/41.jpg" loading="lazy" alt="Image 41">
-                <button class="download-btn" onclick="downloadImage('images/41.jpg')">Download</button>
-            </div>
-            <div>
-                <img src="images/42.jpg" loading="lazy" alt="Image 42">
-                <button class="download-btn" onclick="downloadImage('images/42.jpg')">Download</button>
-            </div>
-            <div>
-                <img src="images/43.JPG" loading="lazy" alt="Image 43">
-                <button class="download-btn" onclick="downloadImage('images/43.jpg')">Download</button>
-            </div>
-            <div>
-                <img src="images/44.jpg" loading="lazy" alt="Image 44">
-                <button class="download-btn" onclick="downloadImage('images/44.jpg')">Download</button>
-            </div>
-            <div>
-                <img src="images/45.JPG" loading="lazy" alt="Image 45">
-                <button class="download-btn" onclick="downloadImage('images/45.jpg')">Download</button>
-            </div>
-            <div>
-                <img src="images/46.jpg" loading="lazy" alt="Image 46">
-                <button class="download-btn" onclick="downloadImage('images/46.jpg')">Download</button>
-            </div>
-            <div>
-                <img src="images/47.jpg" loading="lazy" alt="Image 47">
-                <button class="download-btn" onclick="downloadImage('images/47.jpg')">Download</button>
-            </div>
-            <div>
-                <img src="images/48.jpg" loading="lazy" alt="Image 48">
-                <button class="download-btn" onclick="downloadImage('images/48.jpg')">Download</button>
-            </div>
-            <div>
-                <img src="images/49.jpg" loading="lazy" alt="Image 49">
-                <button class="download-btn" onclick="downloadImage('images/49.jpg')">Download</button>
-            </div>
-            <div>
-                <img src="images/50.jpg" loading="lazy" alt="Image 50">
-                <button class="download-btn" onclick="downloadImage('images/50.jpg')">Download</button>
-            </div>
-            <div>
-                <img src="images/51.jpg" loading="lazy" alt="Image 51">
-                <button class="download-btn" onclick="downloadImage('images/51.jpg')">Download</button>
-            </div>
-        </main>
-        <footer id="footer__wrapper">
-            <div id="footer__wrapper__desc">
-                <p>갤러리 웹사이트는 상업적 목적이 전혀 없습니다.</p>
-                <div id="footer__link">
-                    <p><a href="https://frontdevpark.tistory.com/">Blog </a></p>
-                    <p id="bar">|</p>
-                    <p><a href="https://github.com/bp4sp4/">Github</a></p>
-                </div>
-            </div>
-        </footer>
-        <script src="randomcss.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
+        </div>
+    </footer>
+    <!-- 푸터 끝 -->
+    <script src="randomcss.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
 
 </body>
 
